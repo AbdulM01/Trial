@@ -127,7 +127,7 @@ app.post('/orders/place', (req, res) => {
                             console.log(errClear);
                             res.status(500).json({ error: 'Internal Server Error' });
                         } else {
-                            res.status(201).json({ message: 'Order placed successfully' });
+                            res.status(201).json({ message: 'Order placed so successfully' });
                         }
                     });
                 }
